@@ -4,11 +4,13 @@
     border:none;
     color:white;
     padding: 7px 10px 7px 10px;
-    
+    transition: color .3 ease;
     &:focus{
         outline: none;
     }
-   
+   &:hover{
+       color: darken($color:black, $amount: 10);
+   }
 }
 .btn-primary{
     background-color: $primary;
